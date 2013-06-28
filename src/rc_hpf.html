@@ -1,0 +1,20 @@
+<html id="analog">
+<head>
+  <link rel="stylesheet" type="text/css" href="static/main.css" />
+</head>
+<body>
+    <h1>RC Highpass Filter</h1>
+    <div id="image">
+        <img src="images/rc_hpf.png" />
+    </div>
+    <div id="description">
+        <p>A Resistor-Capacitor Highpass Filter is a simple analog filter that allows high frequencies to pass but attenuates lower frequencies. The cutoff frequency of the filter is determined by <img src="rc_lpf_eqn.png" class="equation" />.</p>
+
+        <p>An RC highpass filter effectively forms a frequency dependent voltage divider. At low frequencies, the capacitor acts as a very high resistance, so the signal is attenuated a lot. At higher frequencies, the capacitor has less resistance, so the signal is attenuated less.</p>
+
+        <p>A single RC filter has slow rolloff - about 20 decibels per decade. Multiple RC filters can be chained for better response, but at the cost of higher impedance.</p>
+    </div>
+    <div id="cardno">19</div>
+    <div id="totalcards">32</div>
+</body>
+</html>

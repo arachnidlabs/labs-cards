@@ -1,0 +1,118 @@
+@page main {
+    width: 165mm;
+    height: 252mm;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    page: main;
+    padding: 0;
+    margin: 0;
+    width: 165mm;
+    height: 252mm;
+}
+
+html#silver {
+    background: url(silver_front.png) no-repeat top left;
+    -webkit-background-size: cover;
+}
+
+html#analog {
+    background: url(gold_front.png) no-repeat top left;
+    -webkit-background-size: cover;
+}
+
+html#digital {
+    background: url(blue_front.png) no-repeat top left;
+    -webkit-background-size: cover;
+}
+
+html#power {
+    background: url(green_front.png) no-repeat top left;
+    -webkit-background-size: cover;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    left: 12mm;
+    right: 7.5mm;
+    top: 18mm;
+    height: 15mm;
+    font-family: Orbitron;
+    font-variant: small-caps;
+    font-size: 11mm;
+    text-align: right;
+}
+
+#image {
+    position: absolute;
+    left: 14.8mm;
+    top: 42.8mm;
+    height: 86.9mm;
+    width: 140.3mm;    
+    text-align: center;
+    line-height: 86.9mm;
+    display: table;
+}
+
+#image img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    max-height: 86.9mm;
+    max-width: 140.3mm;
+    margin: auto;
+}
+
+#description {
+    position: absolute;
+    top: 138mm;
+    height: 90mm;
+    left: 12mm;
+    right: 7.5mm;
+    font-size: 5mm;
+    font-family: Helvetica, sans-serif;
+    padding: 6mm;
+}
+
+#description p {
+    margin: 0 0 0.75em 0;
+    padding: 0;
+}
+
+img.equation {
+    vertical-align: middle;
+}
+
+#cardno {
+    position: absolute;
+    top: 231mm;
+    left: 54mm;
+    width: 24mm;
+    font-family: Orbitron;
+    font-size: 10.5mm;
+    text-align: right;    
+}
+
+#totalcards {
+    position: absolute;
+    top: 231mm;
+    left: 87mm;
+    width: 24mm;
+    font-family: Orbitron;
+    font-size: 10.5mm;
+    text-align: right;
+}
+
+#gold #totalcards, #gold #cardno {
+    color: #D3840B;
+}

@@ -1,0 +1,20 @@
+<html id="digital">
+<head>
+  <link rel="stylesheet" type="text/css" href="static/main.css" />
+</head>
+<body>
+    <h1>FET Level-shifter</h1>
+    <div id="image">
+        <img src="images/fet_level_shifter.png" />
+    </div>
+    <div id="description">
+        <p>A single FET in the configuration depicted can be used as a bidirectional level shifter, useful for I2C or other bidirectional buses.</p>
+
+        <p>With neither side being driven, the pullups ensure both lines are high. If the low voltage side is driven low, the FET gate is now at a higher voltage than the source, and the FET conducts, driving the high voltage side low. If the high voltage side is driven low, the FET's body diode conducts, bringing the low voltage side low and turning the FET on.</p>
+
+        <p>By removing one of the pullup resistors, this configuration can be used as a unidirectional level shifter as well.</p>
+    </div>
+    <div id="cardno">17</div>
+    <div id="totalcards">32</div>
+</body>
+</html>

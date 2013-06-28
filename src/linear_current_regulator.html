@@ -1,0 +1,20 @@
+<html id="power">
+<head>
+  <link rel="stylesheet" type="text/css" href="static/main.css" />
+</head>
+<body>
+    <h1>Current Regulator</h1>
+    <div id="image">
+        <img src="images/linear_current_regulator.png" />
+    </div>
+    <div id="description">
+        <p>This design uses a commonly available linear regulator to produce a constant current source.</p>
+
+        <p>R1 is chosen such that the voltage drop across it will be equal to the linear regulator's reference voltage of 1.25 volts when the desired current is reached. Thus, the resistor value is determined by <img src="linear_current_regulator_eqn.png" class="equation">.</p>
+
+        <p>One significant downside to the use of a linear regulator as a current source is the high voltage drop required across the shunt resistor. This results in a high power dissipation, requiring larger components, and also reduces the compliance voltage range for the current source.</p>
+    </div>
+    <div id="cardno">30</div>
+    <div id="totalcards">32</div>
+</body>
+</html>
