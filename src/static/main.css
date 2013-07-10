@@ -1,6 +1,6 @@
 @page main {
-    width: 165mm;
-    height: 252mm;
+    width: 276mm;
+    height: 376mm;
     margin: 0;
     padding: 0;
 }
@@ -9,28 +9,21 @@ html {
     page: main;
     padding: 0;
     margin: 0;
-    width: 165mm;
-    height: 252mm;
-}
-
-html#silver {
-    background: url(silver_front.png) no-repeat top left;
-    -webkit-background-size: cover;
+    width: 276mm;
+    height: 376mm;
+    background-size: 252mm 348mm;
 }
 
 html#analog {
-    background: url(gold_front.png) no-repeat top left;
-    -webkit-background-size: cover;
+    background: url(gold_front.png) no-repeat center;
 }
 
 html#digital {
-    background: url(blue_front.png) no-repeat top left;
-    -webkit-background-size: cover;
+    background: url(blue_front.png) no-repeat center;
 }
 
 html#power {
-    background: url(green_front.png) no-repeat top left;
-    -webkit-background-size: cover;
+    background: url(green_front.png) no-repeat center;
 }
 
 body {
@@ -41,22 +34,23 @@ body {
 
 h1 {
     position: absolute;
-    left: 12mm;
-    right: 7.5mm;
-    top: 18mm;
-    height: 15mm;
+    left: 29mm;
+    right: 29mm;
+    top: 33mm;
+    height: 20mm;
+    padding: 4mm 2mm 0 0;
     font-family: Orbitron;
     font-variant: small-caps;
-    font-size: 11mm;
+    font-size: 17mm;
     text-align: right;
 }
 
 #image {
     position: absolute;
-    left: 14.8mm;
-    top: 42.8mm;
-    height: 86.9mm;
-    width: 140.3mm;    
+    left: 35mm;
+    top: 74mm;
+    height: 118mm;
+    width: 206mm;    
     text-align: center;
     line-height: 86.9mm;
     display: table;
@@ -68,20 +62,20 @@ h1 {
     bottom: 0;
     right: 0;
     left: 0;
-    max-height: 86.9mm;
-    max-width: 140.3mm;
+    max-height: 118mm;
+    max-width: 206mm;
     margin: auto;
 }
 
 #description {
     position: absolute;
-    top: 138mm;
-    height: 90mm;
-    left: 12mm;
-    right: 7.5mm;
-    font-size: 5mm;
+    top: 208mm;
+    height: 117mm;
+    left: 32mm;
+    right: 32mm;
+    font-size: 8.2mm;
     font-family: Helvetica, sans-serif;
-    padding: 6mm;
+    padding: 1mm 4mm;
 }
 
 #description p {
@@ -95,21 +89,21 @@ img.equation {
 
 #cardno {
     position: absolute;
-    top: 231mm;
-    left: 54mm;
+    top: 333mm;
+    left: 97mm;
     width: 24mm;
     font-family: Orbitron;
-    font-size: 10.5mm;
-    text-align: right;    
+    font-size: 15mm;
+    text-align: left;
 }
 
 #totalcards {
     position: absolute;
-    top: 231mm;
-    left: 87mm;
+    top: 333mm;
+    right: 97mm;
     width: 24mm;
     font-family: Orbitron;
-    font-size: 10.5mm;
+    font-size: 15mm;
     text-align: right;
 }
 
