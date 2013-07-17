@@ -5,7 +5,7 @@ SCH := $(shell mktemp -u image.png)
 all: $(docs)
 
 build/%.pdf: src/%.html src/images/%.png src/static/main.css
-		wkpdf --source $< --output $@ --print-background yes --paper custom:276x376 --no-paginate
+		wkpdf --source $< --output $@ --print-background yes --paper custom:276x376 --no-paginate --save-delay=1.0
 
 src/images/%.png: schematics/%.sch
 		$(EAGLE_CMD) -C "export image /tmp/$(SCH) 600; quit;" "$(CURDIR)/$<"
