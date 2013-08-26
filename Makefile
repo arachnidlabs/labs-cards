@@ -5,7 +5,7 @@ SCH := $(shell mktemp -u image.png)
 all: $(docs)
 
 build/%.pdf: src/%.html src/images/%.png src/static/main.css
-		wkpdf --source $< --output $@ --print-background yes --paper custom:276x376 --no-paginate --save-delay=1.0
+		wkpdf --source $< --output $@ --print-background yes --paper custom:276x376 --no-paginate --save-delay=1.5
 
 cards.pdf: build/*.pdf $(docs)
 		"/System/Library/Automator/Combine PDF Pages.action/Contents/Resources/join.py" -o cards.pdf build/*.pdf

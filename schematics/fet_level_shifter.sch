@@ -879,6 +879,9 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <sheets>
 <sheet>
 <plain>
+<text x="20.828" y="21.844" size="1.778" layer="91">G</text>
+<text x="15.748" y="18.288" size="1.778" layer="91">S</text>
+<text x="23.368" y="18.288" size="1.778" layer="91">D</text>
 </plain>
 <instances>
 <instance part="Q1" gate="G$1" x="20.32" y="17.78" rot="R270"/>

@@ -1,1 +1,3 @@
 build/*
+*.s#?
+cards.pdf

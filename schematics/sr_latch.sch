@@ -356,7 +356,7 @@ Based on the following sources:
 <wire x1="-2.54" y1="7.62" x2="12.7" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="7.62" x2="12.7" y2="17.78" width="0.1524" layer="91"/>
 <junction x="12.7" y="17.78"/>
-<label x="17.78" y="17.78" size="1.27" layer="95"/>
+<label x="17.78" y="18.288" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="/Q" class="0">
@@ -369,21 +369,21 @@ Based on the following sources:
 <wire x1="-2.54" y1="-2.54" x2="12.7" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="-2.54" x2="12.7" y2="-12.7" width="0.1524" layer="91"/>
 <junction x="12.7" y="-12.7"/>
-<label x="17.78" y="-12.7" size="1.27" layer="95"/>
+<label x="17.78" y="-12.192" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="R" class="0">
 <segment>
 <pinref part="IC1" gate="A" pin="I0"/>
 <wire x1="-12.7" y1="20.32" x2="-17.78" y2="20.32" width="0.1524" layer="91"/>
-<label x="-17.78" y="20.32" size="1.27" layer="95"/>
+<label x="-17.78" y="20.828" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="S" class="0">
 <segment>
 <pinref part="IC1" gate="B" pin="I1"/>
 <wire x1="-12.7" y1="-15.24" x2="-17.78" y2="-15.24" width="0.1524" layer="91"/>
-<label x="-17.78" y="-15.24" size="1.27" layer="95"/>
+<label x="-17.78" y="-14.732" size="1.27" layer="95"/>
 </segment>
 </net>
 </nets>

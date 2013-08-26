@@ -1016,8 +1016,8 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <instance part="SUPPLY1" gate="G$1" x="35.56" y="48.26"/>
 <instance part="SUPPLY2" gate="+5V" x="78.74" y="48.26"/>
 <instance part="GND1" gate="1" x="53.34" y="10.16"/>
-<instance part="C1" gate="G$1" x="35.56" y="35.56"/>
-<instance part="C2" gate="G$1" x="78.74" y="35.56"/>
+<instance part="C1" gate="G$1" x="35.56" y="35.56" smashed="yes"/>
+<instance part="C2" gate="G$1" x="78.74" y="35.56" smashed="yes"/>
 <instance part="R1" gate="G$1" x="68.58" y="38.1" rot="R90"/>
 <instance part="R2" gate="G$1" x="53.34" y="20.32" rot="R90"/>
 </instances>
